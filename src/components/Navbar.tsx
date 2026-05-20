@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="navbar" aria-label="Site navigation">
       <Link to="/" className="navbar-brand" onClick={() => setOpen(false)}>
-        Moonwater <span>Portfolio</span>
+        Kirkegaard's <span>Portfolio</span>
       </Link>
 
       <ul className={`navbar-links${open ? ' open' : ''}`} role="list">
